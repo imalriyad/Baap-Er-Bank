@@ -13,7 +13,7 @@ document.getElementById('login-btn').addEventListener('click',function(){
        alert('Please enter your Password first')
    }
   
-   if (password == 'password') {
+   else if (password == 'password') {
       window.location.href = './bank.html'
      
    } 

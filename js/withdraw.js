@@ -25,7 +25,6 @@ document.getElementById('withdraw-btn').addEventListener('click',function(){
 
     let finalBalance = newTotalBalanceAmount - withdrawAmount
     balanceTotal.innerText = finalBalance
-    
+    alert('Withdraw Succesfull!')   
 }
-alert('Withdraw Succesfull!')
 })

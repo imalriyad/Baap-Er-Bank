@@ -25,8 +25,9 @@ document.getElementById('deposit-btn').addEventListener('click',function(){
 
    let totalBalance = parseFloat(newDepositAmount) + parseFloat(balance)
    balanceValue.innerText = totalBalance
+   alert('Deposit Succesfull!')
     }
-    alert('Deposit Succesfull!')
+    
 })
 
 
